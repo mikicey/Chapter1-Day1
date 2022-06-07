@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
+    <style>
+
+
+        *{
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .intro-container{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            width: 100%;
+            max-width: 600px;
+            
+            margin: 64px 0px;
+        }
+
+
+/* TITLE AND DES  */
+        .intro__title{
+            font-weight: bold;
+            font-size: 40px;
+            margin-bottom: 0px;
+        }
+
+
+        .intro__des{
+            margin: 32px 0px;
+            font-size: 18px;
+        }
+
+
+/* BTN AND DOWNLOAD */
+
+        .intro__btn{
+    
+           display: inline-block;
+
+           color: white;
+           background-color: black;
+           cursor: pointer;
+
+           border-radius:32px; 
+           margin-bottom: 16px;
+           padding: 16px 32px;
+
+           font-size: 18px;
+           font-weight: bold;
+        }
+
+
+        .intro__download{
+              
+              cursor: pointer;
+
+              display: inline-flex;
+              align-items: center;
+              margin-bottom: 32px;
+
+              font-size: 18px;
+              
+        }
+
+        .intro__download img {
+            margin-left: 4px;
+        }
+
+
+/* SOCIALS */
+
+        .intro__socials{
+            margin: 0 auto;
+            margin-bottom: 48px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .intro__socials a {
+            margin: 0 8px;
+        }
+
+        .intro__socials img {
+            width: 48px;
+        }
+
+        .intro__socials a:nth-child(2) img{
+            width: 52px;
+        }
+
+        .intro__socials a:nth-child(3) img{
+            width: 56px;
+        }
+
+
+
+/* CARD  */
+        .intro-card{
+            overflow: hidden;
+            box-shadow: 0px 0px 64px rgb(215, 215, 215);
+
+            width: 400px;
+            display: inline-flex;
+            flex-direction: column;
+
+            margin: 0 auto;
+            border-radius: 12px;
+        }
+
+        .intro-card img{
+             width: 100%;
+             height: 550px;
+        }
+
+        .intro-card strong{
+            margin-top: 18px;
+
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .intro-card p {
+            font-size: 20px;
+            text-align: center;
+            
+            margin-top: 4px;
+            margin-bottom: 18px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+
+<!-- Container -->
+  <div class="intro-container">
+
+      <h1 class="intro__title">Hi! Welcome to My Hut!</h1>
+
+      <p class="intro__des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Dolorum accusantium aliquam quod nemo eveniet alias, quos
+         asperiores, nihil saepe facilis voluptate adipisci 
+         possimus distinctio reiciendis officiis consequatur 
+         optio ut repellendus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+         Dolorum accusantium aliquam quod nemo eveniet alias, quos
+          asperiores, nihil saepe facilis voluptate adipisci 
+          possimus distinctio reiciendis officiis consequatur 
+          optio ut repellendus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Dolorum accusantium aliquam quod nemo eveniet alias, quos
+           asperiores, nihil saepe facilis voluptate adipisci 
+           possimus distinctio reiciendis officiis consequatur 
+           optio ut repellendus!
+      </p>
+
+      <div class="intro__btn">
+        Contact 
+      </div>
+
+      <div class="intro__download">
+        Download CV <img src="assets/downloads.png" alt="">
+      </div>
+
+      <!-- Social -->
+      <div class="intro__socials">
+
+       <a href="https://www.linkedin.com/in/darren-christian-t-8b59b9224">
+          <img src="assets/linkedin.png" alt="linkedin logo">
+       </a>
+       <a href="https://instagram.com/selftaught_tj?igshid=YmMyMTA2M2Y=">
+           <img src="assets/ig.png" alt="instagram logo">
+        </a>
+       <a href="https://www.facebook.com/profile.php?id=100080178886723">
+           <img src="assets/facebook.png" alt="facebook logo">
+       </a>
+       <a href="https://www.twitter.com/DarrenC43892953">
+           <img src="assets/twitter.png" alt="twitter logo">
+       </a>
+          
+        
+      </div>
+
+      <!-- Card -->
+      <div class="intro-card">
+          <img src="assets/bio1.jpg" alt="My face">
+          <strong>Darren Christian</strong>
+          <p>Fullstack Developer</p>
+      </div>
+
+  </div>
+<!-- end container -->
+
+
+</body>
+</html>
