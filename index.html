@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
 
     <style>
 
@@ -22,7 +23,8 @@
             min-height: 100vh;
 
             margin: 0px;
-            padding: 0px;
+            padding: 80px;
+            background-color: #E3E7EB ;
         }
 
         .intro-container{
@@ -31,9 +33,11 @@
             align-items: flex-start;
 
             width: 100%;
-            max-width: 600px;
-            
-            margin: 64px 0px;
+            padding: 48px 320px;
+            background-color: white;
+
+            border-radius: 12px;
+            box-shadow: 0px 0px 64px rgb(215, 215, 215);
         }
 
 
@@ -89,30 +93,33 @@
 
 /* SOCIALS */
 
-        .intro__socials{
-            margin: 0 auto;
-            margin-bottom: 48px;
+.intro__socials{
+    margin: 0 auto;
+    margin-bottom: 48px;
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
-        .intro__socials a {
-            margin: 0 8px;
-        }
+.intro__socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        .intro__socials img {
-            width: 48px;
-        }
+    width: 32px;
+    height: 32px;
+    padding: 4px 4px;
+    margin: 0 8px;
 
-        .intro__socials a:nth-child(2) img{
-            width: 52px;
-        }
+    border-radius: 50vh;
+    background-color: black;
+    
+}
 
-        .intro__socials a:nth-child(3) img{
-            width: 56px;
-        }
+.fa-brands{
+     color: white;
+}
 
 
 
@@ -187,18 +194,18 @@
       <!-- Social -->
       <div class="intro__socials">
 
-       <a href="https://www.linkedin.com/in/darren-christian-t-8b59b9224">
-          <img src="assets/linkedin.png" alt="linkedin logo">
-       </a>
-       <a href="https://instagram.com/selftaught_tj?igshid=YmMyMTA2M2Y=">
-           <img src="assets/ig.png" alt="instagram logo">
-        </a>
-       <a href="https://www.facebook.com/profile.php?id=100080178886723">
-           <img src="assets/facebook.png" alt="facebook logo">
-       </a>
-       <a href="https://www.twitter.com/DarrenC43892953">
-           <img src="assets/twitter.png" alt="twitter logo">
-       </a>
+        <a href="https://www.linkedin.com/in/darren-christian-t-8b59b9224">
+            <i  class="fa-brands fa-linkedin-in"></i>
+         </a>
+         <a href="https://instagram.com/selftaught_tj?igshid=YmMyMTA2M2Y=">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+         <a href="https://www.facebook.com/profile.php?id=100080178886723">
+            <i class="fa-brands fa-facebook-f"></i>
+         </a>
+         <a href="https://www.twitter.com/DarrenC43892953">
+            <i class="fa-brands fa-twitter"></i>
+         </a>
           
         
       </div>
